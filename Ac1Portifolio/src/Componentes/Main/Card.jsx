@@ -3,9 +3,11 @@ function Card(){
 
     <main>
       return (
-            <div className="card">
-                {nome}
+            <div className="areaCards">
+               
             </div>
+
+            <div className="cardsContainer"></div>
         );
     </main>
 
