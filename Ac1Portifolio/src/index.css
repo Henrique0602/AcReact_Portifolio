@@ -21,7 +21,7 @@ body {
 }
 
 .banner {
-  background-image: url(images/ban.jpg);
+  background-image: url(Imagens/ban.jpg);
   background-size: cover;
   background-position: 10%;
   color: rgb(255, 255, 255);
@@ -33,6 +33,15 @@ body {
   text-shadow: 10px 10px 10px black;;
   transition: all;
   
+}
+
+.banner {
+  opacity: 0;
+}
+
+.banner[data-aos='fade-up'].aos-animate {
+  opacity: 1;
+  transition: opacity 0.5s ease;
 }
 
 .areaCards{
@@ -84,7 +93,7 @@ body {
 }
 
 .card-1:hover{
-  background-image: url(images/!henricao.png);
+  background-image: url(Imagens/!henricao.png);
   background-size: cover;
   width: 52vh; 
   height: 52vh;
@@ -110,7 +119,7 @@ body {
 }
 
 .card-2:hover{
-  background-image: url(images/!daniel.png);
+  background-image: url(Imagens/!daniel.png);
   background-size: cover;
   width: 52vh; 
   height: 52vh;
@@ -136,7 +145,7 @@ body {
 }
 
 .card-3:hover{
-  background-image: url(images/!eric.png);
+  background-image: url(Imagens/!eric.png);
   background-size: cover;
   width: 52vh; 
   height: 52vh;
@@ -159,6 +168,8 @@ body {
 }
 
 .habilidades{
+  display: flex;
+  justify-content: center;
   margin-top: 50px;
   margin-bottom: 20px;
   color: rgb(255, 0, 0);
@@ -166,18 +177,24 @@ body {
 }
 
 .habilidadesEric{
+  display: flex;
+  justify-content: center;
   color: white;
   font-size: 10px;
 
 }
 
 .habilidadesDaniel{
+  display: flex;
+  justify-content: center;
   color: white;
   font-size: 10px;
 
 }
 
 .habilidadesHenrique{
+  display: flex;
+  justify-content: center;
   color: white;
   font-size: 10px;
   
@@ -219,4 +236,13 @@ body {
   text-align: center;
   padding-bottom: 4rem;
   color: white;
+}
+
+[data-aos='fade-up'] {
+  opacity: 0;
+}
+
+[data-aos='fade-up'].aos-animate {
+  opacity: 1;
+  transition: opacity 0.5s ease;
 }
