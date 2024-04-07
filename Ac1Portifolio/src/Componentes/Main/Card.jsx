@@ -7,12 +7,12 @@ function Card() {
     AOS.init({ duration: 2000 });
   }, []);
 
-  const nomesIntegrantes = ['Henrique', 'Daniel', 'Eric'];
+  const nomesIntegrantes =  ['Henrique', 'Daniel', 'Eric'] ;
 
   return (
     <section>
       <div>
-        <div className="areaCards" data-aos="fade-up">
+        <div className="areaCards">
           Integrantes (hover)
         </div>
         <div className="cardsContainer" >

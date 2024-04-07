@@ -1,8 +1,11 @@
 
 import './App.css'
+import Footer from './Componentes/Footer/Footer'
 import Header from './Componentes/Header/Header'
 import Card from './Componentes/Main/Card'
+import Form from './Componentes/Main/Form'
 import Habilidades from './Componentes/Main/Habilidades'
+
 
 
 function App() {
@@ -13,6 +16,8 @@ function App() {
         <Header/>
         <Card/>
         <Habilidades/>
+        <Form/>
+        <Footer/>
     
 
       
