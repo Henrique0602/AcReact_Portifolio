@@ -183,6 +183,13 @@ body {
   font-size: 10px;
 
 }
+.habilidadesHenrique{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 10px;
+  
+}
 
 .habilidadesDaniel{
   display: flex;
@@ -192,14 +199,6 @@ body {
 
 }
 
-.habilidadesHenrique{
-  display: flex;
-  justify-content: center;
-  color: white;
-  font-size: 10px;
-  
-}
-
 .contato {
   display: flex;
   align-items: center;
@@ -207,6 +206,8 @@ body {
   flex-direction: column;
   margin: 1rem;
 }
+
+
 
 .form-container {
   max-width: 400px;
@@ -240,7 +241,7 @@ body {
 .submit-button {
   width: 100%;
   padding: 10px;
-  background-color: #007bff;
+  background-color: #ff0000;
   border: none;
   color: white;
   border-radius: 4px;
@@ -248,7 +249,8 @@ body {
 }
 
 .submit-button:hover {
-  background-color: #0056b3;
+  background-color: #3b0000;
+  border-color: aliceblue;
 }
 
 .copyright{
