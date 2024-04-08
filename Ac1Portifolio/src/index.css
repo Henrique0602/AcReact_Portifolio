@@ -204,6 +204,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  margin: 1rem;
 }
 
 .form-container {
